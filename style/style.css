@@ -2,22 +2,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 
+
 .quicksand-font {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
+.header-container{
+      display: flex;
+      margin-left: 80px;margin-right: 80px;
+}
+
+.header-titel{
+  font-size: 56px;font-weight: bold;
+}
+.header-content{
+  font-weight: 400;font-size: 20px;
+}
+.header-btn{
+  background-color: black;color: #FFFFFF;
+  width: 197px;height: 50px;padding: 10px;border-radius: 12px;
+  border: none;
+}
+
+
+
 /*shared style*/
 .display-flex{
     display:flex
+    }
+    .orenge{
+      color: orange;
+    }
+    .sky-blue{
+      color: skyblue;
+    }
+    .t-8700FF{
+     color: #8700FF;
+     text-decoration: none;
+     font-weight: bold;font-size: 15.09px; margin-top: 60px;
+    }
+    .F0AA00{
+      color: #F0AA00;
+      text-decoration: none;
+      font-weight: bold;font-size: 15.09px;
+    }
+    .t-64C8FF{
+      color: #64C8FF;
+      text-decoration: none;
+      font-weight: bold;font-size: 15.09px;
+      padding-bottom: 100px;
     }
 
 
 /*header styles*/
 .section-content{
     display: flex;
-   margin-left: 110px;
+   margin-left: 80px;
 }
 .head-section{
    display: flex; 
@@ -28,7 +70,7 @@
     background-color: orange;color: #FFFFFF;
     padding: 10px;border-radius: 12px;border: none;
     color: #FFFFFF;
-    margin-left: 260px;margin-top: 15px;
+    margin-left: 375px;margin-top: 15px;
     padding: 15px 30px;
    
 }
@@ -54,6 +96,91 @@
 .nav-link4{
   color: #5D58EF;text-decoration: none;
 }
-/*navbar related styles*/
+/*2nd-container related styles*/
+.sceond-container{
 
+}
+.sceond-titel {
+  font-weight: bold;font-size: 46px;
+  display: flex;
+  justify-content: center;
+  }
+.sceond-pera1{
+  font-weight: 300;font-size: 15.09px;
+  color: #808080;background-color: 
+  width: 307;height: 400px;
+  text-align: center;padding: 10px;border-radius: 19px;padding-top: 100px;
+  border:1px solid #DEF5FF; 
+  background: rgb(171,205,241);
+background: linear-gradient(180deg, rgba(171,205,241,1) 0%, rgba(214,229,244,1) 12%, rgba(247,247,247,1) 37%);
+  
+}
+.sceond-pera2{
+  font-weight: 300;font-size: 15.09px;
+  color: #808080; width: 307;height: 400px;
+  text-align: center;padding: 10px;border-radius: 19px;padding-top: 100px;
+  border: 1px solid #FFF4DC; 
+  background: rgb(240,217,149);
+background: linear-gradient(186deg, rgba(240,217,149,1) 0%, rgba(244,228,179,1) 0%, rgba(255,255,255,1) 27%);
+  
+}
+  
+.sceond-pera3{
+  font-weight: 300;font-size: 15.09px;
+  color: #808080; width: 307;height: 400px;
+  text-align: center;padding: 10px;border-radius: 19px;padding-top: 100px;
+  border: 1px solid #F2E8FF; box-shadow: 5px #F2E8FF;
+  background: rgb(247,241,255);
+background: linear-gradient(175deg, rgba(247,241,255,1) 1%, rgba(251,251,251,1) 29%);
+}
+.sceond-container{
+  display: flex;margin-left: 80px;margin-right: 80px;
+  gap: 35px; 
+}
+.btn-last{
+  background-color: orange;width: 60px;height: 60px;
+  border-radius: 100px;border: none;
+}
+.btn-class{
+  display: flex;
+  justify-content: center; margin-top: 80px;margin-bottom: 60px;gap: 10px;
+}
+/*story styles*/
+#btn-id{
+  background-color: #3CD8E8;
+  border: none;border-radius: 47px;
+  width: 174px;height: 38px;font-size: 15px;font-weight: 300px;
+  margin-left: 30px;
+  
+}
+  
+.btn-story{
+  background-color: #95B226;margin-left: 30px;
+  border: none;border-radius: 47px;
+  width: 174px;height: 38px;font-size: 15px;font-weight: 300px;
+}
+.btn-story2{
+  background-color: #5D58F0;
+  border: none;border-radius: 47px;margin-left: 30px;
+  width: 174px;height: 38px;font-size: 15px;font-weight: 300px;
+}
+.story-content{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.story-section{
+  display: flex; margin-left: 80px; margin-left: 80px;
+}
+.our-story{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;font-size: 46px;
+}
+.story-pic{
+  border-radius: 15px; margin-bottom: -21px;
 
+}
+.bg-img{
+  width: 100%;
+  margin-bottom: -100px;
+}
